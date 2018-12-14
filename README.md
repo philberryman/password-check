@@ -6,7 +6,7 @@ Returns **true** or **false**
 
 Password requirements (found in functions.js):
 
-```json
+```console
 passwordRules = {
 length:  10,
 must_have_numbers:  true,
@@ -47,15 +47,15 @@ true
 - test using curl
 - password can be set by editing the value in the "password" object
 
-```
-curl -H "Content-Type: application/json" \
+```console
+~$ curl -H "Content-Type: application/json" \
 -d '{"password":"pa$$word"}' \
 -X GET http://localhost:5000/password_check
 ```
 
 # Running Unit Tests with Jest
 
-```
+```console
 ~$ npm install
 ~$ npm test
 ```
