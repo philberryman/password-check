@@ -5,9 +5,14 @@
     "author": "Phil Berryman <phil@berryman.org.uk>",
     "main": "passwordCheck.js",
     "scripts": {
-        "start": "node .js"
+        "start": "node .js",
+        "test": "jest"
     },
     "dependencies": {
-        "express": "^4.16.1"
+        "express": "^4.16.1",
+        "jest": "^22.1.4"
+    },
+    "jest": {
+        "testURL": "file:/"
     }
 }
