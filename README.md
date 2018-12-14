@@ -59,3 +59,10 @@ true
 ~$ npm install
 ~$ npm test
 ```
+
+Four tests will run
+
+- Is too short (checks passwords less than 10 chars return false)
+- No capital letters (checks passwords with no capitals return false)
+- No numbers (checks passwords with no numbers return false)
+- Password is valid (checks a valid password returns true)
