@@ -1,0 +1,13 @@
+{
+    "name": "password_check",
+    "version": "1.0.0",
+    "description": "check if password is valid",
+    "author": "Phil Berryman <phil@berryman.org.uk>",
+    "main": "passwordCheck.js",
+    "scripts": {
+        "start": "node .js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
