@@ -5,10 +5,11 @@
     "author": "Phil Berryman <phil@berryman.org.uk>",
     "main": "passwordCheck.js",
     "scripts": {
-        "start": "node .js",
+        "start": "node ./src/server.js",
         "test": "jest"
     },
     "dependencies": {
+        "body-parser": "^1.18.3",
         "express": "^4.16.1",
         "jest": "^22.1.4"
     },
